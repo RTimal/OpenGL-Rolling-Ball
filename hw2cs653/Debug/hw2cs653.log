@@ -1,0 +1,35 @@
+﻿Build started 3/7/2013 1:10:59 AM.
+     1>Project "D:\hw2cs653\hw2cs653\hw2cs653.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\hw2cs653.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\hw2cs653.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hw2cs653.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hw2cs653.cpp
+         hw2cs653.cpp
+     1>d:\hw2cs653\hw2cs653\hw2cs653.cpp(5): warning C4603: '_USE_MATH_DEFINES' : macro is not defined or definition is different after precompiled header use
+                 Add macro to precompiled header instead of defining here
+                 d:\hw2cs653\hw2cs653\hw2cs653.cpp(7) : use of precompiled header
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hw2cs653.exe.embed.manifest.res" Debug\hw2cs653_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\hw2cs653\Debug\hw2cs653.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hw2cs653.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\hw2cs653\Debug\hw2cs653.pdb" /SUBSYSTEM:CONSOLE /STACK:"8000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\hw2cs653\Debug\hw2cs653.lib" /MACHINE:X86 Debug\hw2cs653.exe.embed.manifest.res
+         Debug\hw2cs653.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\hw2cs653.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\hw2cs653.exe.embed.manifest" /manifest Debug\hw2cs653.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hw2cs653.exe.embed.manifest.res" Debug\hw2cs653_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\hw2cs653\Debug\hw2cs653.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hw2cs653.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\hw2cs653\Debug\hw2cs653.pdb" /SUBSYSTEM:CONSOLE /STACK:"8000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\hw2cs653\Debug\hw2cs653.lib" /MACHINE:X86 Debug\hw2cs653.exe.embed.manifest.res
+         Debug\hw2cs653.obj
+         Debug\stdafx.obj
+         hw2cs653.vcxproj -> D:\hw2cs653\Debug\hw2cs653.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\hw2cs653.unsuccessfulbuild".
+         Touching "Debug\hw2cs653.lastbuildstate".
+     1>Done Building Project "D:\hw2cs653\hw2cs653\hw2cs653.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.92
